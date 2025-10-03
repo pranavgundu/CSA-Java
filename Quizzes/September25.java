@@ -37,8 +37,8 @@ public class September25 implements Directions{
 
     public static void main(String args[]) {
         Robot k = new Robot(5, 2, North, 100000);
-        World.setVisible(true);
-        World.setDelay(1);
+        World.setVisible(true); // mistakes
+        World.setDelay(1); // mistakes
 
         k.putBeeper();
         diagnolRight(2, k);
