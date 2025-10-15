@@ -2,14 +2,14 @@ import kareltherobot.Directions;
 import kareltherobot.Robot;
 import kareltherobot.World;
 
-public class JumpThoseHurdles {
+public class JumpThoseHurdlesTest {
   // Find the hurdle with the max height!!
   // This is the Robot we will use to jump the hurdles
   // hurdler.frontIsClear() determines if it can take a step
   Robot hurdler = new Robot(1, 1, Directions.East, 0);
 
   public static void main(String[] args) {
-    new JumpThoseHurdles().start(); // static methods cannot call nonstatic methods
+    new JumpThoseHurdlesTest().start(); // static methods cannot call nonstatic methods
   }
 
   public static void turnRight(Robot robot) {
@@ -30,8 +30,6 @@ public class JumpThoseHurdles {
     int[] values = clearHurdle(); // same as this.clearHurdle
     System.out.println("The tallest hurdle is hurdle " + (values[1] + 1) + " with a height of " + values[0] + ".");
     System.out.println("The shortest distance between two hurdles is " + (values[2] + 0) + " spaces long.");
-
-    World.setVisible(false);
 
   }
 
@@ -113,15 +111,6 @@ public class JumpThoseHurdles {
     World.readWorld(worldName);
     World.setVisible(true);
     World.setDelay(5);
-  }
-
-  private void resetWorld(World world) {
-    world.setVisible(false);
-    world.reset();
-  }
-  
-  private void testWorld(World world) {
-    
   }
 
 }

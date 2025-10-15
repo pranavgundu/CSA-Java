@@ -95,6 +95,6 @@ public class RobotTagTeam implements Directions{
         World.setDelay(1);
         World.setSize(25, 25);	
 
-        three(robot);
+        climbStairs(4, robot);
     }
 }
