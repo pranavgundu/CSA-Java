@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 974e1949330909a01225371206ea28c8fb019b8e Pranav Gundu <pgund28@shs-m104lab-m22.shrewsbury.k12.ma.us> 1756471088 -0400	commit (initial): hello world
-974e1949330909a01225371206ea28c8fb019b8e aefae99b61db8f51041964f300821ef0be90a04b pranavgundu <pranav@gundu.me> 1759149174 -0400	commit: fix ts
-aefae99b61db8f51041964f300821ef0be90a04b 206f7b38edf6fdebaff2bf75547717c45f0524a9 pranavgundu <pranav@gundu.me> 1759502988 -0400	commit: fix
-206f7b38edf6fdebaff2bf75547717c45f0524a9 6b5367886116182c50c557925dd799ebd3c0477d pranavgundu <pranav@gundu.me> 1760548232 -0400	commit: lots of code
-6b5367886116182c50c557925dd799ebd3c0477d 6b5367886116182c50c557925dd799ebd3c0477d pranavgundu <pranav@gundu.me> 1760548243 -0400	Branch: renamed refs/heads/main to refs/heads/main
-6b5367886116182c50c557925dd799ebd3c0477d cb529cc4e5b85c4f67092203ebcf4f6389bc734a pranavgundu <pranav@gundu.me> 1760626101 -0400	pull --rebase: Fast-forward
