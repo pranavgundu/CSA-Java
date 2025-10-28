@@ -1,12 +1,8 @@
-// StateSong.java
-// This program displays the lyrics of "If You're Happy and You Know It"
-// and demonstrates several String operations and concatenation features.
-
 public class StateSong
 {
     public static void main(String[] args)
     {
-        String title = "If You're Happy and You Know It";
+        String title = "All Hail to Massachusetts";
         System.out.println("Song Title: " + title);
 
         String loudTitle = title.toUpperCase(); 
@@ -15,15 +11,15 @@ public class StateSong
         String verseNumber = "Verse number: " + 1; 
         System.out.println(verseNumber);
 
-        String line1 = "If you're happy and you know it, clap your hands";
-        String line2 = " (clap clap)";
+        String line1 = "All hail to Massachusetts, the land of the free and the brave,";
+        String line2 = " for proud are the traditions of our fathers.";
         String verse1 = line1 + line2; 
         System.out.println("\nVerse using + operator:\n" + verse1);
 
-        String chorus = "If you're happy and you know it, ";
-        chorus += "then your face will surely show it, ";
-        chorus += "if you're happy and you know it, ";
-        chorus += "clap your hands! (clap clap)";
+        String chorus = "All hail to Massachusetts, ";
+        chorus += "the home of the bean and the cod, ";
+        chorus += "where brave men and women have made their stand, ";
+        chorus += "for liberty and God!";
         System.out.println("\nChorus using += operator:\n" + chorus);
     }
 }
