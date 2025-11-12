@@ -14,10 +14,10 @@ public class GUI {
         frame.setTitle("JFrame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon frameIcon = new ImageIcon("GUI/jd.jpeg");
+        ImageIcon frameIcon = new ImageIcon("GUI/flower.jpeg");
         frame.setIconImage(frameIcon.getImage());
 
-        ImageIcon displayImage = new ImageIcon("GUI/jd.jpeg");
+        ImageIcon displayImage = new ImageIcon("GUI/flower.jpeg");
         
         StretchedImagePanel imagePanel = new StretchedImagePanel(displayImage.getImage());
         
